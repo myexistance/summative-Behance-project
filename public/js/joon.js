@@ -6,7 +6,7 @@ var designer1 = 'rafaalvarez';
 var designer2 = 'rafaalvarez';
 var designer2 = 'rafaalvarez';
 var $container = $("#BehanceProject");
-var $covers = $("#ProjectCovers");
+
 
 
   function success(data) {
@@ -20,6 +20,7 @@ var $covers = $("#ProjectCovers");
     // $covers.append('<img src=' + projectData.covers['404'] + ' />');
     $container.append('<div class="project__item">'+projectData.name+'</div>');
     $container.append('<div class="project__item">'+projectData.fields+'</div>');
+    $container.append('<div class="project__item">' + '<img src= "' + projectData.covers[404] + '">')
 
   }
 
