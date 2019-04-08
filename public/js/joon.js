@@ -1,14 +1,5 @@
 $(document).ready(function() {
 
-
-var api = 'dSoSYYcQQTsMHJ9O5hWkN6gns4aV5gOM';
-var designer1 = 'designer';
-var designer2 = 'rafaalvarez';
-var designer3 = 'rafaalvarez';
-var container = $("#BehanceProject");
-
-
-
   function success(data) {
 
     console.log(data)
@@ -19,7 +10,7 @@ var container = $("#BehanceProject");
           console.log(project)
           insertProject(project);
        }
-    
+
      }
 
   }
