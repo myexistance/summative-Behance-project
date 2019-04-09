@@ -20,8 +20,7 @@ var container = $("#BehanceProject");
   function insertProject(projectData) {
 
     container.append('<div class="project__item">'+projectData.name+'</div>');
-    container.append('<div class="project__item">'+projectData.fields+'</div>');
-    container.append('<div class="project__item">' + '<img src= "' + projectData.covers[404] + '">')
+    container.append('<div class="project__item">' + '<img src= "' + projectData.covers[404] + '" >')
 
   }
 var user= ["matiascorea","lucaviola","raewynbrandon"];
